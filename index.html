@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a id="downloadLink" style="display: none" href="samaan\Udit_2_Resume.pdf" download="Udit Gupta.pdf"></a>
+
+<main>
+  <nav>
+    <div class="navleft">Portfolio</div>
+    <div class="navright">
+      <ul class="navbar">
+        <li><a class="navitem" href="#home">Home</a></li>
+        <li><a class="navitem" href="#projects">Projects</a></li>
+        <li><a class="navitem" href="#skills">Skills</a></li>
+        <li><a class="navitem" href="#contacts">Contact</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="#" class="hidnav"><i class="fa-solid fa-bars"></i></a>
+      <div class="dropcon">
+        <a class="navitems" href="#home">Home</a>
+        <a class="navitems" href="#projects">Projects</a>
+        <a class="navitems" href="#skills">Skills</a>
+        <a class="navitems" href="#contacts">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home">
+    <div class="pg1main">
+      <div class="pg1left">
+        <div class="hello"><h2>Hello, It's ME</h2></div>
+        <div class="name"><h1>Udit Gupta</h1></div>
+        <div class="frontend">
+          <h2>And I'm a <span class="multiple-text"></span></h2>
+        </div>
+        <div class="cv">
+          <button class="downloadcv" onclick="downloadCV()">Download CV</button>
+        </div>
+      </div>
+      <div class="pg1right">
+        <img class="im" src="samaan\phot.jpg" alt="myphoto">
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <h2>My <span>Projects</span></h2>
+    <div class="pg2main">
+          <div class="pg2small"href='https://uditgupta08.github.io/BubbleGame/'>
+              <img src="samaan/bubble.png" alt="bubble" />
+              <h4>Bubble Game</h4>
+              <p>
+                Pop bubbles with matching single-digit numbers shown on top. A
+                quick and fun challenge to test your reflexes and number
+                recognition skills.
+              </p>
+            </a>
+          </div>
+          <div class="pg2small" href="https://uditgupta08.github.io/Tic-Tac-Toe/">
+              <img src="samaan/tic tac.png" alt="tic" />
+              <h4>Tic-Tac-Toe</h4>
+              <p>
+                A classic 3x3 grid game where players take turns marking Xs and
+                Os, aiming to create a line of three. Quick, timeless, and
+                strategic.
+              </p>
+          </div>
+          <div class="pg2small" href="https://uditgupta08.github.io/Drum-Player/">
+              <img src="samaan/drum.jpg" alt="drum" />
+              <h4>Drum Player</h4>
+              <p>
+                Play beats by hitting keys on the screen or tapping with your
+                cursor. Create music effortlessly by interacting with different
+                drums.
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="skills" id="skills">
+        <div class="pg3head">
+          <h3>My <span>Skills</span></h3>
+        </div>
+        <div class="pg3main">
+          <div class="allskills" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+              <i class="fa-brands fa-html5"></i>
+              <h5>HTML</h5>
+            
+          </div>
+          <div class="allskills" href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h5>CSS</h5>
+          
+          </div>
+          <div class="allskills" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            
+              <i class="fa-brands fa-js"></i>
+              <h5>JavaScript</h5>
+            
+          </div>
+          <div class="allskills" href="https://developer.mozilla.org/en-US/docs/Glossary/Java">
+            
+              <i class="fa-brands fa-java"></i>
+              <h5>Java</h5>
+            
+          </div>
+          <div class="allskills" href="https://developer.mozilla.org/en-US/docs/Glossary/Python">
+            
+              <i class="fa-brands fa-python"></i>
+              <h5>Python</h5>
+            
+          </div>
+          <div class="allskills" href="https://en.cppreference.com/w/">
+            
+              <i class="fa-solid fa-c"></i>
+              <h5>C/C++</h5>
+            
+          </div>
+          <div class="allskills" href="https://nodejs.org/">
+           
+              <i class="fa-brands fa-node"></i>
+              <h5>Node js</h5>
+            
+          </div>
+          <div class="allskills" href="https://reactjs.org/">
+            
+              <i class="fa-brands fa-react"></i>
+              <h5>React js</h5>
+            
+          </div>
+          <!-- <div class="allskills">
+            <a href=""></a>
+            <h5></h5> -->
+        </div>
+      </div>
+      <div class="contacts" id="contacts">
+        <div class="conhead">
+          <h3><span>Contact</span> me!</h3>
+        </div>
+        <div class="conmain">
+          <div class="consmall" href="https://www.instagram.com/udit0808/">
+            <div class="conbox">
+              <a class="con" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <h6>Let's have a chat</h6>
+            <div class="extra"><p>udit0808</p></div>
+          </div>
+          <div
+            class="consmall"
+            href="https://www.linkedin.com/in/udit-gupta-519a1825b/"
+          >
+            <div class="conbox">
+              <a class="con" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <h6>LinkedIn</h6>
+            <div class="extra"><p>Udit Gupta</p></div>
+          </div>
+          <div class="consmall" href="mailto:udit0808gupta@gmail.com">
+            <div class="conbox">
+              <a class="con" href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <h6>Mail me</h6>
+            <div class="extra"><p>udit0808gupta@gmail.com</p></div>
+          </div>
+          <div class="consmall" href="https://github.com/Uditgupta08">
+            <div class="conbox">
+              <a class="con" href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <h6>GitHub</h6>
+            <div class="extra"><p href="">Uditgupta08</p></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+  </body>
+  
+</html>
